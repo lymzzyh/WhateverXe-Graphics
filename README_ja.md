@@ -68,4 +68,6 @@ python3 tools/test.py dist/WhateverXe-Graphics-0.4.0.pkg
 AutoPkgはビルド時に`--autopkg`を追加し、`dist/autopkg/AutoPkg-Assets.pkg`を検査します。
 Git内の署名済み資材を使用するため、Apple原本の取得や署名鍵は不要です。
 
+`UHD770`ソースブランチでは[固定したWEXソースとGraphicsの一括ビルド](docs/UHD770.md)を使用できます。WEXをソースからビルドし、保存済みの署名付きGraphicsをパッケージ化します。
+
 [ソース・署名情報](docs/SOURCES.md) · [第三者の権利表記](THIRD_PARTY.md)

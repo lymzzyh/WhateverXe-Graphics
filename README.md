@@ -68,4 +68,6 @@ python3 tools/test.py dist/WhateverXe-Graphics-0.4.0.pkg
 For AutoPkg, add `--autopkg` to the build command and test `dist/autopkg/AutoPkg-Assets.pkg`.
 The builder uses the checked-in signed payloads; it does not fetch Apple originals or require signing keys.
 
+For the `UHD770` source branch, see [the pinned WEX and Graphics build](docs/UHD770.md). It builds WEX from source and packages the preserved signed Graphics assets.
+
 [Source and signing information](docs/SOURCES.md) · [Third-party notices](THIRD_PARTY.md)
