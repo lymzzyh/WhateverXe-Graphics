@@ -69,4 +69,6 @@ For AutoPkg, add `--autopkg` to the build command and test `dist/autopkg/AutoPkg
 Add `--native-history` to the test command to replay released PCI dispatch and GL URB regressions on the extracted payloads; this requires x86_64 execution, either native or through Rosetta.
 The builder uses the checked-in signed payloads; it does not fetch Apple originals or require signing keys.
 
+For the `UHD770` source branch, see [the pinned WEX and Graphics build](docs/UHD770.md). It builds WEX from source and packages the preserved signed Graphics assets.
+
 [Source and signing information](docs/SOURCES.md) · [Third-party notices](THIRD_PARTY.md)
